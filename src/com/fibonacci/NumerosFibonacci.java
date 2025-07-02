@@ -9,6 +9,7 @@ public class NumerosFibonacci {
 	
 	public static int fiboRecursivo(int n) {
 		
+				
 		if(n == 0) {
 			return 1;
 		}
@@ -26,6 +27,7 @@ public class NumerosFibonacci {
 		List<Integer> fibo = new ArrayList<>();
 		
 		Scanner longitudTerminos = new Scanner(System.in);
+		System.out.println("Este es un test que debe de fallar");
 		System.out.println("Ingresa el total de terminos de la serie Fibonacci => ");
 		c = longitudTerminos.nextInt();
 		
