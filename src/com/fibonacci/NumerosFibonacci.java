@@ -3,7 +3,6 @@ package com.fibonacci;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class NumerosFibonacci {
 	
@@ -25,6 +24,8 @@ public class NumerosFibonacci {
 		
 		int a=0,b=1, cont=0, c=0;
 		List<Integer> fibo = new ArrayList<>();
+		
+		System.out.println("Este es un test");
 		
 		Scanner longitudTerminos = new Scanner(System.in);
 		System.out.println("Este es un test que debe de fallar");
@@ -56,6 +57,8 @@ public class NumerosFibonacci {
 		for(int i=0; i<c+1; i++) {
 			System.out.print(", "+fiboRecursivo(i));
 		}
+		
+		longitudTerminos.close();
 	}
 	
 }
