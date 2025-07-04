@@ -24,8 +24,8 @@ public class NumerosFibonacci {
 		int a=0,b=1, cont=0, c=0;
 		List<Integer> fibo = new ArrayList<>();
 		
-		System.out.println("Este es un test");
-		
+		System.out.println("Este es otro test");
+				
 		Scanner longitudTerminos = new Scanner(System.in);
 		System.out.println("Ingresa el total de terminos de la serie Fibonacci => ");
 		c = longitudTerminos.nextInt();
