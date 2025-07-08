@@ -4,9 +4,6 @@ import java.util.List;
 
 public class TestGeneric<T> implements OperationsGenerics<T> {
 	
-	private T t;
-		
-
 	
 	public T imprimir(T t){
 		return t;
