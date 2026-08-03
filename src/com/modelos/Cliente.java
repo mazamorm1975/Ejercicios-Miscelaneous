@@ -1,19 +1,22 @@
 package com.modelos;
 
-public class Cliente {
+import Enterview.Enterview;
+
+public  class Cliente extends Enterview{
 
 	private int id;
 	private String nombre;
 	private String apellido;
 	private String email;
 	
+
 	
 	public Cliente() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	
-	
+	 
+		
 	public Cliente(int id, String nombre, String apellido, String email) {
 		super();
 		this.id = id;
@@ -21,6 +24,12 @@ public class Cliente {
 		this.apellido = apellido;
 		this.email = email;
 	}
+	
+	public void imprimirMensaje() {
+		System.out.println("Hola mario zamora");
+	}
+	
+	
 	public int getId() {
 		return id;
 	}

@@ -1,4 +1,4 @@
-package com.fibonacci;
+ package com.fibonacci;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +21,10 @@ public class NumerosFibonacci {
 	}
 
 	public static void main(String[] args) {
+
+		
+		
+		System.out.println(NumerosFibonacci.fiboRecursivo(7));
 		
 		int a=0,b=1, cont=0, c=0;
 		List<Integer> fibo = new ArrayList<>();

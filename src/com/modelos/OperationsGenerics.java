@@ -2,7 +2,7 @@ package com.modelos;
 
 import java.util.List;
 
-public interface OperationsGenerics<T> {
+public interface OperationsGenerics {
 
-	public List<T> desplegarListado(List<T> t);
+	public List<Cliente> desplegarListado();
 }
